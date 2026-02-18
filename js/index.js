@@ -26,20 +26,20 @@ const heroContentString =
 const servicesContentString =
   /*html*/
   `
-    <img src="${}" alt="" />
-          <h2>${}</h2>
-          <p>${}</p>
-          <p>${}</p>
+    <img src="${services.illustration}" alt="" />
+          <h2>${services.headline}</h2>
+          <p>${services.text}</p>
+          <p>${services.linktext}</p>
 
-          <img src="${}" alt="" />
-          <h2>${}</h2>
-          <p>${}</p>
-          <p>${}</p>
+          <img src="${services.}" alt="" />
+          <h2>${services.}</h2>
+          <p>${services.}</p>
+          <p>${services.}</p>
 
-          <img src="${}" alt="" />
-          <h2>${}</h2>
-          <p>${}</p>
-          <p>${}</p>
+          <img src="${services.}" alt="" />
+          <h2>${services.}</h2>
+          <p>${services.}</p>
+          <p>${services.}</p>
 `;
 
 heroDOM.insertAdjacentHTML("afterbegin", imgString);
